@@ -1,6 +1,7 @@
 import ProjectCard from "./miniComponents/ProjectCard";
 import letterbox from "../assets/projects/letterbox.mp4";
 import gatewayTourism from "../assets/projects/gatewayTourism.mp4";
+import bookmania from "../assets/projects/bookmania.mp4";
 
 const projects = [
   // {
@@ -20,6 +21,15 @@ const projects = [
     techStack: ["React", "Zustand", "Express", "Socket.IO"],
     github: "https://github.com/payalkharb1924/fullstack-chat-app",
     demo: "https://letterbox-yuvy.onrender.com/",
+  },
+  {
+    title: "BookMania",
+    videoSrc: bookmania,
+    description:
+      "BookMania is a sleek, distraction-free web app designed for people to plan, write, and organize their books notes chapter-by-chapter.",
+    techStack: ["Express", "GoggleOAuth", "PostgreSQL", "EJS", "Node.js"],
+    github: "",
+    demo: "",
   },
   {
     title: "Gateway Tourism",
