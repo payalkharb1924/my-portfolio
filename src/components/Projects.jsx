@@ -2,17 +2,26 @@ import ProjectCard from "./miniComponents/ProjectCard";
 import letterbox from "../assets/projects/letterbox.mp4";
 import gatewayTourism from "../assets/projects/gatewayTourism.mp4";
 import bookmania from "../assets/projects/bookmania.mp4";
+import quickfix from "../assets/projects/quickfix.mp4";
 
 const projects = [
-  // {
-  //   title: "My Portfolio",
-  //   videoSrc: "/videos/portfolio.mp4",
-  //   description:
-  //     "A clean, modern portfolio built with React, Tailwind, framer-motion, and daisyUI.",
-  //   techStack: ["React", "TailwindCSS", "Framer Motion", "DaisyUI"],
-  //   github: "https://github.com/yourname/portfolio",
-  //   demo: "https://yourdomain.com",
-  // },
+  {
+    title: "QuickFix",
+    videoSrc: quickfix,
+    description:
+      "A full-stack service booking platform built with the MERN stack. It features OTP-based login/signup, customer & technician dashboards, booking management, and service discovery with filters for price, availability, and category.",
+    techStack: [
+      "MERN",
+      "TailwindCSS",
+      "DaisyUI",
+      "Zustand",
+      "JWT",
+      "LocationIQ",
+    ],
+    github: "https://github.com/yourname/quickfix",
+    // demo: "https://yourdomain.com/quickfix",
+  },
+
   {
     title: "Chat App",
     videoSrc: letterbox,
